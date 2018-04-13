@@ -1,41 +1,70 @@
 ---
-title: Hello World !!
+title: Hexo 安裝教學
+date: 2018-04-11 10:12:03
 tags:
-    Hexo
-    blog
+- Hexo
+- blog
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+## 介紹 Hexo
 
-### Create a new post
+[Hexo](https://hexo.io/zh-tw/)是一款可自定義，輕量級，可部署在 Github 的部落格框架。
+
+
+## 開始
+
+### 下載 Nodejs
+
+[node官網](https://nodejs.org/en/)
+
+因為 Hexo 多半是用指令來安裝套件和執行，所以我們得下載 Nodejs
+
+### 安裝 Hexo-cli
+
+將 Hexo-cli 裝在全局，才可以使用 Hexo 下指令
+
+``` bash
+$ npm install -g hexo-cli
+
+```
+
+
+### hexo 創建一個部落格
+
+它會自動生成一包資料夾，進到資料夾將套件安裝起來
+
+``` bash
+$ hexo init <folder>
+$ cd <folder>
+$ npm install
+```
+
+
+
+### 生成新文章
 
 ``` bash
 $ hexo new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
 
-### Run server
+### 運行
 
 ``` bash
 $ hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
 
-### Generate static files
+### 生成靜態文件
 
 ``` bash
 $ hexo generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
 
-### Deploy to remote sites
+### 部署
 
 ``` bash
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)

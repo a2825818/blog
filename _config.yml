@@ -4,7 +4,7 @@
 
 # Site
 title: Eli's Blog
-subtitle: 如果人生是盤棋，那最大敵人是自己
+subtitle: 我專注將這盤棋下得精彩
 description:
 keywords: "前端 , Hexo"
 author: Eli
@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-aria
+theme: hexo-theme-icalm
 search:
   path: search.xml
   field: all
@@ -100,22 +100,23 @@ deploy:
   branch: master
 
 menu:
-  home: /
-  archives: archives/
-  categories: categories/
-  tags: tags/
-  about: about
+  Home: /
+  Archive: /archives/
+  # archives: archives/
+  # categories: categories/
+  # tags: tags/
+  # about: about
 
 creative_commons: by-nc-nd
 
 # highlight: atom-one-dark
 
-avatar: images/avatar.png
+# avatar: images/avatar.png
 
-logo: images/ARIA_logo.png
+# logo: images/ARIA_logo.png
 
 # Need quote to prevent `#` from comment.
-android_chrome_color: "#26272b"
+# android_chrome_color: "#26272b"
 
 tags_color:
   - "#fc6423"
@@ -129,10 +130,3 @@ comment:
   enable: false
   hypercomments_id:
   disqus_shortname:
-
-reward:
-  enable: false
-  comment: 坚持原创技术分享，您的鼓励将是我继续前进的动力！
-  # wechatpay_qrcode: images/WeChatPay.png
-  # alipay_qrcode: images/AliPay.png
-  bitcoin_qrcode:
