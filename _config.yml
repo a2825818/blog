@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://a2825818.github.io/
-root: /blog
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -99,13 +99,12 @@ deploy:
   repo: git@github.com:a2825818/a2825818.github.io.git
   branch: master
 
-menu:
-  Home: /
-  Archive: /archives/
-  # archives: archives/
-  # categories: categories/
-  # tags: tags/
-  # about: about
+# menu:
+#   Home: /
+#   Archive: /archives/
+#   Tags: /tags/
+#   Categories: categories/
+#   About: /about/
 
 creative_commons: by-nc-nd
 
@@ -126,7 +125,8 @@ tags_color:
 animate: false
 
 
-comment:
-  enable: false
-  hypercomments_id:
-  disqus_shortname:
+# Disqus 
+disqus:
+  enable: true
+  shortname: a2825818    #your name
+  count: true
